@@ -3,7 +3,7 @@ public class Main {
         //задание 1
         int [] a = new int[] {1, 2, 3};
         double [] b = {1.57, 7.654, 9.986};
-        int [] c = new int [5];
+        int [] c = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
         //задание 2
         for (int k = 0; k < a.length; k++) {
             if (k < a.length-1) {
