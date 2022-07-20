@@ -53,7 +53,10 @@ public class Main {
             if (a[i] % 2 != 0) {
                 a[i]++;
             }
-            System.out.print(a[i] + " ");
+            if (i < 2) {
+                System.out.print(a[i] + ",");
+            } else
+                System.out.print(a[i]);
         }
     }
 }
